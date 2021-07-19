@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(116, 113, 109);
+    color: whitesmoke;
+}
+
+.container {
+    background-color: rgb(150, 150, 150);
+    padding-left: 0;
+    padding-right: 0;
+}
