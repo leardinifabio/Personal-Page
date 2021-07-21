@@ -1,10 +1,21 @@
-body {
+/* body {
     background-color: rgb(116, 113, 109);
     color: whitesmoke;
-}
+} */
 
-.container {
-    background-color: rgb(150, 150, 150);
+.container-fluid {
     padding-left: 0;
     padding-right: 0;
+}
+
+#navbarNav1 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.myBackground {
+    background-image: url(https://i2.wp.com/wallpaperaccess.com/full/2641092.gif);
+    background-size: cover;
+    width: 100%;
+    min-height: 400px;
 }
