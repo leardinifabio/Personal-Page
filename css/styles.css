@@ -14,8 +14,24 @@
 }
 
 .myBackground {
-    background-image: url(https://i2.wp.com/wallpaperaccess.com/full/2641092.gif);
+    background-color: black;
+    background-image: url("/Images/background3.png");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
     width: 100%;
-    min-height: 400px;
+    height: 100%;
+}
+
+h1 {
+    display: inline;
+    font-family: monospace;
+    font-variant: small-caps;
+}
+
+h2 {
+    display: inline;
+    font-family: monospace;
+    font-variant: small-caps;
 }
