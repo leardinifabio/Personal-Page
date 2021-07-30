@@ -1,7 +1,6 @@
-/* body {
-    background-color: rgb(116, 113, 109);
-    color: whitesmoke;
-} */
+body {
+    background-color: rgb(10, 30, 37);
+}
 
 .container-fluid {
     padding-left: 0;
@@ -31,7 +30,7 @@ h2 {
 #containerhead {
     text-align: center;
     background-color: black;
-    background-image: url("/Images/background3.png");
+    background-image: url("../images/background2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -54,8 +53,10 @@ h2 {
 }
 
 .post-main-text {
-    font-size: 30px;
-    display: inline;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 20px;
+    display: block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;
     text-justify: auto;
@@ -72,11 +73,11 @@ h2 {
     }
 
     #containerhead {
-        background-image: url("/Images/background4.png");
+        background-image: url("../images/background6.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
-        max-width: 640px;
+        min-height: 600px;
         position: relative;
 
     }
@@ -88,4 +89,12 @@ h2 {
         margin-right: 30px;
     }
 
-}
+    .post-main-text {
+        margin-left: 15%;
+        margin-right: 15%;
+        font-size: 20px;
+        display: block;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: justify;
+        text-justify: auto;
+    }
