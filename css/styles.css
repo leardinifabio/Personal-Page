@@ -1,5 +1,6 @@
 body {
     background-color: rgb(10, 30, 37);
+    font-family: 'Manjari', sans-serif;
 }
 
 .container-fluid {
@@ -7,9 +8,14 @@ body {
     padding-right: 0;
 }
 
-#navbarNav1 {
+.navbar-brand {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.navbar-toggler,
+navbar-toggler-icon {
+    margin: 0 10px 0 0;
 }
 
 .post {
@@ -52,12 +58,11 @@ h2 {
     color: seashell;
 }
 
-.post-main-text {
+.post-main p {
     margin-left: 15%;
     margin-right: 15%;
     font-size: 20px;
     display: block;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     text-justify: auto;
 }
@@ -89,12 +94,11 @@ h2 {
         margin-right: 30px;
     }
 
-    .post-main-text {
+    .post-main p {
         margin-left: 15%;
         margin-right: 15%;
         font-size: 0.8rem;
         display: block;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-align: center;
         text-justify: auto;
     }
