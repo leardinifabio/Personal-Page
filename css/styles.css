@@ -36,7 +36,7 @@ h2 {
 #containerhead {
     text-align: center;
     background-color: black;
-    background-image: url("../images/background2.png");
+    background-image: url("../Images/background2.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -78,7 +78,7 @@ h2 {
     }
 
     #containerhead {
-        background-image: url("../images/background6.png");
+        background-image: url("../Images/background6.png");
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
