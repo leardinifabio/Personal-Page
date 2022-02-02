@@ -1,10 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #252531;
-    font-family: 'Manjari', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .container-fluid {
-    padding: 10px 30px 10px 30px;
+    padding: 1rem 0;
     justify-content: center;
     align-items: center;
 }
@@ -30,6 +34,7 @@ navbar-toggler-icon {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 0 2rem;
     height: 40vh;
 }
 
@@ -58,7 +63,6 @@ h1 {
     line-height: 3.8rem;
     font-size: 4rem;
     display: inline;
-    font-variant: small-caps;
     text-align: justify;
     text-justify: auto;
 }
@@ -69,8 +73,9 @@ h2 {
 
 #containerhead {
     display: flex;
+    flex-direction: column;
     min-height: 400px;
-    width: 90%;
+    width: 100%;
     height: 90%;
 }
 
@@ -82,17 +87,17 @@ h2 {
 }
 
 .post-main {
-    background-color: rgb(10, 30, 37);
-    color: seashell;
+    background-color: #2C2531;
+    color: aliceblue;
+    width: 100%;
 }
 
-.post-main p {
-    margin-left: 15%;
-    margin-right: 15%;
-    font-size: 20px;
+.post-sobre {
+    margin: 1rem auto;
+    font-size: 1rem;
     display: block;
     text-align: center;
-    text-justify: auto;
+    width: 60%;
 }
 
 @media screen and (max-width: 540px) {
