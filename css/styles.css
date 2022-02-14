@@ -23,6 +23,10 @@ body {
 
 }
 
+.nav-link {
+    text-transform: capitalize;
+}
+
 .navbar-toggler,
 navbar-toggler-icon {
     margin: 0 10px 0 0;
@@ -72,6 +76,10 @@ h1 {
 
 h2 {
     color: #aaaaaa;
+}
+
+h3 {
+    color: aliceblue;
 }
 
 #containerhead {
