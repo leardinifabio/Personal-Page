@@ -24,7 +24,8 @@ body {
 }
 
 .nav-link {
-    text-transform: capitalize;
+    font-variant: small-caps;
+    font-size: 18px;
 }
 
 .navbar-toggler,
