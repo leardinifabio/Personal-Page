@@ -4,6 +4,7 @@
 
 body {
     background-color: #252531;
+    color: aliceblue;
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
@@ -60,6 +61,31 @@ navbar-toggler-icon {
 
 }
 
+.container-habilidades {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
+.cards-habilidades {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1rem;
+}
+
+.cards-habilidades div {
+    padding: .5rem;
+    border-radius: 3%;
+    justify-content: center;
+    text-align: center;
+    width: 24%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.09);
+}
+
 /* Entender a melhor forma de posicionar e dimensionar uma imagem de destaque */
 
 .img-destaque-head img {
@@ -81,6 +107,8 @@ h2 {
 
 h3 {
     color: aliceblue;
+    margin: 0 0 .7rem 0;
+    text-align: center;
 }
 
 #containerhead {
