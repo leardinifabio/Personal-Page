@@ -12,8 +12,8 @@ export default class Footer {
         footerContainer.innerHTML =
         `
         <ul>
-            <li><a href=${this.linkedinLink}><img src="/src/assets/images/linkedin.svg"></a></li>
-            <li><a href=${this.githubLink}><img src="/src/assets/images/github.svg"></a></li>
+            <li><a href=${this.linkedinLink}><img src="./src/assets/images/linkedin.svg"></a></li>
+            <li><a href=${this.githubLink}><img src="./src/assets/images/github.svg"></a></li>
         </ul>
         `
 
