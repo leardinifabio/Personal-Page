@@ -1,0 +1,22 @@
+@use '/src/styles/global';
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        gap: 1.5rem;
+    }
+
+    img {
+        max-height: 50px;
+        fill: global.$font-color-primary;
+    }
+}
