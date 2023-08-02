@@ -1,3 +1,4 @@
+import './styles.scss';
 export default class Header {
     constructor(titulo) {
         this.titulo = titulo || 'Nome e Sobrenome'
@@ -16,10 +17,9 @@ export default class Header {
     nav.innerHTML = 
     `
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Sobre</a></li>
-      <li><a href="#">Portfólio</a></li>
-      <li><a href="#">Contato</a></li>
+      <li><a href="#">sobre</a></li>
+      <li><a href="#">portfólio</a></li>
+      <li><a href="#">contato</a></li>
     </ul>
     `;
 

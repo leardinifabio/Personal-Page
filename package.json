@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "babel": "./node_modules/.bin/babel src --out-dir dist",
-    "start": "webpack serve --mode development --open",
+    "start": "webpack --mode development --watch",
     "build": "webpack --mode production"
   },
   "repository": {
